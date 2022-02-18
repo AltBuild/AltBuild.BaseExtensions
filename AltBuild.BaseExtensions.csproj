@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <AssemblyName>AltBuild.BaseExtensions</AssemblyName>
+    <RootNamespace>AltBuild.BaseExtensions</RootNamespace>
+    <Version>3.2.0-alpha</Version>
+    <Description>Basic extensions.</Description>
+    <Copyright>ALTBUILD CO.,LTD.</Copyright>
+    <Company>ALTBUILD CO.,LTD.</Company>
+    <Authors>Keiichi Saito, Teruyuki Onuma</Authors>
+    <PackageIcon>ABlogoRA.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\ABlogoRA.png" Pack="True" PackagePath="" />
+    <None Include="LICENSE.txt" Pack="True" PackagePath="" />
+  </ItemGroup>
+
+</Project>
