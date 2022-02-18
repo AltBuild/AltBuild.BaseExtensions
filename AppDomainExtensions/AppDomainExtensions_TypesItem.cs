@@ -1,4 +1,9 @@
 using System;
+using System.Collections.Generic;
+using System.Collections.Concurrent;
+using System.Text;
+using System.Reflection;
+using System.Linq;
 
 namespace AltBuild.BaseExtensions
 {
