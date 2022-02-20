@@ -14,7 +14,7 @@ namespace AltBuild.BaseExtensions
             return false;
         }
 
-        public static string ToChaining<T>(this T[] array, string prefix, string suffix, string chain)
+        public static string ToJoin<T>(this T[] array, string prefix, string suffix, string chain)
         {
             bool bPrefix = !string.IsNullOrWhiteSpace(prefix);
             bool bSuffix = !string.IsNullOrWhiteSpace(suffix);
